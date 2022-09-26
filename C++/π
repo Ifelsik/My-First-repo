@@ -1,0 +1,11 @@
+#include <cmath>
+#include <iomanip>
+#include <iostream>
+using namespace std;
+int main() {
+	int n;
+	cin >> n;
+	std::cout << std::setprecision(n+1)
+		<< acos(-1.0)
+		<< std::endl;
+}
